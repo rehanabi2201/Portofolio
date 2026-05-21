@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Anda</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">REHAN.ID</a>
+            <ul class="navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profil.html">Isi Profil</a></li>
+                <li><a href="profil-tampil.html">Lihat Profil</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" style="max-width: 700px; margin-top: 50px;">
+        <div class="card" style="text-align: center;">
+            <img src="img/profile.jpeg" alt="Foto Profil" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-color); margin: 0 auto 20px; display: block;">
+            <h2 id="tampilNama" style="margin-bottom: 5px;">Rehan Abi</h2>
+            <p id="tampilKeahlian" style="color: var(--accent-color); font-weight: bold; margin-top: 0;"></p>
+            <hr style="border: 0; border-top: 1px solid #334155; margin: 20px 0;">
+            <div style="text-align: left;">
+                <h4 style="margin-bottom: 5px; color: var(--text-muted);">Kontak Email: rehanabi2201@gmail.com</h4>
+                <p id="tampilEmail" style="margin-top: 0;"></p>
+                
+                <h4 style="margin-bottom: 5px; color: var(--text-muted);">Tentang Saya: Design UI/UX</h4>
+                <p id="tampilBio" style="line-height: 1.6;"></p>
+            </div>
+            <a href="profil.html" class="btn-custom" style="margin-top: 20px;">Edit Kembali</a>
+        </div>
+    </div>
+
+    <script src="javascript/js.js"></script>
+</body>
+</html>
